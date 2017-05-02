@@ -7,9 +7,12 @@
         }
     ],
     "require": {
+        "maxakawizard/json-collection-parser": "^1.1",
         "symfony/console": "^3.2",
         "robmorgan/phinx": "^0.8.0",
-        "doctrine/orm": "^2.5"
+        "doctrine/orm": "^2.5",
+        "pimple/pimple": "^3.0",
+        "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {
         "phpspec/phpspec": "^3.2",
