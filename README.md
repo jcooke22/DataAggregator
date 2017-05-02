@@ -18,6 +18,23 @@ Aggregates datapoints from a given JSON file and imports aggregated data into My
 - `symfony/console`
     - Used to handle input argument validation and output styling on the CLI
 
+#### Requirements
+- MySQL
+- PHP 7.x
+- Composer (https://getcomposer.org/)
+
 #### Usage
+
+**Composer**
+
+`composer install`
+
+**DB Migrations**
+
+Edit `phinx.yml`, add your MySQL database connection details then run phinx migrate to create the database tables 
+
+`./bin/phinx migrate`
+
+
 
 #### Limitations
