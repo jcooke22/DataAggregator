@@ -25,11 +25,11 @@ Aggregates datapoints from a given JSON file and imports aggregated data into My
 
 #### Usage
 
-**Composer**
+*Composer*
 
 `composer install`
 
-**DB Migrations**
+*DB Migrations*
 
 Edit `phinx.yml`, add your MySQL database connection details then run phinx migrate to create the database tables 
 
