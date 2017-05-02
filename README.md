@@ -41,7 +41,7 @@ Aggregates data points from a given JSON file and imports aggregated data into M
 
 *DB Migrations*
 
-Edit `phinx.yml`, add your MySQL database connection details then run phinx migrate to create the database tables 
+Edit `phinx.yml`, add your MySQL database connection details then run `phinx migrate` to create the database tables 
 
 `./bin/phinx migrate`
 
@@ -50,6 +50,8 @@ Edit `phinx.yml`, add your MySQL database connection details then run phinx migr
 `./bin/phpspec run`
 
 *Import data, aggregate, and persist to database*
+
+Edit `.env`, add your MySQL database connection details then run `Unit:ProcessAggregate` to import/aggregate the data
 
 `php console.php Unit:ProcessAggregate`
 
