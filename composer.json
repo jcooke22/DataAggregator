@@ -8,7 +8,8 @@
     ],
     "require": {
         "symfony/console": "^3.2",
-        "robmorgan/phinx": "^0.8.0"
+        "robmorgan/phinx": "^0.8.0",
+        "doctrine/orm": "^2.5"
     },
     "require-dev": {
         "phpspec/phpspec": "^3.2",
