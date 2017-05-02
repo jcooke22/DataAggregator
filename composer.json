@@ -1,0 +1,24 @@
+{
+    "name": "jcooke22/DataAggregator",
+    "authors": [
+        {
+            "name": "James Cooke",
+            "email": "jcooke22@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.2"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.2",
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataAggregator\\": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}

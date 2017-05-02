@@ -1,0 +1,4 @@
+suites:
+     backend_test_suite:
+         namespace: DataAggregator
+         psr4_prefix: DataAggregator
